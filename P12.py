@@ -25,7 +25,47 @@ start_time = time.time()
 result = 0
 # ***** BEGIN CODE FOR P12.py *****
 
+def numDivisors(number):
 
+    if (number == 1):
+        return 1
+    if (number < 1):
+        return 0
+
+    divisors = 1
+    primes = 1
+    i = 2
+
+    # Inifinite loop to find interger divisors, starting at 2
+    while True:
+        if (number > 1):
+            if ((number % i) == 0):
+                number /= i     # Prime found, divide by it and iterate over new number
+                primes += 1     # Add 1 to current prime count for this integer i
+                continue        # Don't add 1 to integer i
+            i += 1
+            divisors *= primes
+            primes = 1
+        else:
+            break
+    divisors *= primes
+    if (divisors == 1):
+        return 2
+    else:
+        return divisors
+    
+# Main
+
+tri_num = 0
+i = 1
+
+while True:
+    tri_num += i
+    if (numDivisors(tri_num) > 500):
+        break
+    i += 1
+
+result = tri_num
 
 # ***** END CODE FOR P12.py *****
 print ("Result is: ", result)

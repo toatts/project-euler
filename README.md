@@ -20,4 +20,4 @@ Note: italicized times are greater than 1 second and candidate for further optim
 | P9.py   |  0.14201  | Pythagorean triplets                                          | 
 | P10.py  | _29.4179_ | Sum of all primes less than 2 million                         | 
 | P11.py  |  0.00100  | Finding largest product of four numbers in 20x20 grid         | 
-| P12.py  |           | First triangle number with over 500 divisors                  | 
+| P12.py  | _11.2291_ | First triangle number with over 500 divisors                  | 
