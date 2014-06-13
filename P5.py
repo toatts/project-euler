@@ -8,6 +8,7 @@ print ("Project Euler - Problem 5\n\n")
 # numbers from 1 to 20?
 # ==============================================================================
 import time
+import math
 
 start_time = time.time()
 result = 0

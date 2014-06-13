@@ -6,6 +6,7 @@ print ("Project Euler - Problem 3\n\n")
 # What is the largest prime factor of the number 600851475143 ?
 # ==============================================================================
 import time
+import math
 
 start_time = time.time()
 result = 0

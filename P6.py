@@ -12,12 +12,11 @@ print ("Project Euler - Problem 6\n\n")
 # natural numbers and the square of the sum.
 # ==============================================================================
 import time
+import math
 
 start_time = time.time()
 result = 0
 # ***** BEGIN CODE FOR P6.py *****
-
-import math
 
 i = 100
 sqr_sum = 0

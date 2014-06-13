@@ -7,6 +7,7 @@ print ("Project Euler - Problem 4\n\n")
 # Find the largest palindrome made from the product of two 3-digit numbers.
 # ==============================================================================
 import time
+import math
 
 start_time = time.time()
 result = 0

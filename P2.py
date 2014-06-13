@@ -8,7 +8,10 @@ print ("Project Euler - Problem 2\n\n")
 # By considering the terms in the Fibonacci sequence whose values do not exceed 
 # four million, find the sum of the even-valued terms.
 # ==============================================================================
+import time
+import math
 
+start_time = time.time()
 result = 0
 # ***** BEGIN CODE FOR P2.py *****
 
@@ -29,5 +32,5 @@ while (term1 < MAXCOUNT):
 
 # ***** END CODE FOR P2.py *****
 print ("Result is: ", result)
-
+print ("Run time: " + str((time.time() - start_time)) + " seconds\n")
 # END P2.py
