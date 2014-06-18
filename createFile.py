@@ -99,7 +99,7 @@ f.write('result = 0\n')
 f.write('# ***** BEGIN CODE FOR ' + filename + ' *****\n\n\n\n')
 f.write('# ***** END CODE FOR ' + filename + ' *****\n')
 f.write('print ("Result is: ", result)\n')
-f.write('print ("Run time: " + str((time.time() - start_time)) + " seconds")\n')
+f.write('print ("Run time:   " + str((time.time() - start_time)) + " seconds")\n')
 f.write('# END ' + filename)
 
 # Close the URL and file
@@ -110,5 +110,5 @@ f.close()
 print (filename + " template file created!")
 
 # Cleanup old files
-print ('Cleaning up backup files...')
-os.system("rm *.py~")
+# print ('Cleaning up backup files...')
+# os.system("rm *.py~")

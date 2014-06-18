@@ -21,3 +21,6 @@ Note: italicized times are greater than 1 second and candidate for further optim
 | P10.py  | _29.4179_ | Sum of all primes less than 2 million                         | 
 | P11.py  |  0.00100  | Finding largest product of four numbers in 20x20 grid         | 
 | P12.py  | _11.2291_ | First triangle number with over 500 divisors                  | 
+| P13.py  | <0.00000  | First ten digits of sum of 100 50-digit numbers               | 
+| P14.py  |  5.45054  | Longest Collatz chain from digit under 1 million              | 
+| P15.py  |           | Number of paths using down/right combinations in 20x20 grid   | 
