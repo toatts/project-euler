@@ -12,7 +12,10 @@ start_time = time.time()
 result = 0
 # ***** BEGIN CODE FOR P16.py *****
 
+power = list(str(2**1000))
 
+for i in power:
+    result += int(i)
 
 # ***** END CODE FOR P16.py *****
 print ("Result is: ", result)

@@ -24,4 +24,6 @@ Note: italicized times are greater than 1 second and candidate for further optim
 | P13.py  | <0.00000  | First ten digits of sum of 100 50-digit numbers               | 
 | P14.py  |  5.45054  | Longest Collatz chain from digit under 1 million              | 
 | P15.py  | <0.00000  | Number of paths using down/right combinations in 20x20 grid   | 
-| P16.py  |           | Sum of digits of 2^1000                                       | 
+| P16.py  | <0.00000  | Sum of digits of 2^1000                                       | 
+| P17.py  |  0.00200  | Sum of letters of all digits from 1 to 1000                   | 
+| P18.py  |           |                                                               | 
