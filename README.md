@@ -26,4 +26,5 @@ Note: italicized times are greater than 1 second and candidate for further optim
 | P15.py  | <0.00000  | Number of paths using down/right combinations in 20x20 grid   | 
 | P16.py  | <0.00000  | Sum of digits of 2^1000                                       | 
 | P17.py  |  0.00200  | Sum of letters of all digits from 1 to 1000                   | 
-| P18.py  |           |                                                               | 
+| P18.py  | <0.00000  | Maximum sum of numbers traversing triangle list               | 
+| P19.py  |           |                                                               | 
