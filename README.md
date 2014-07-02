@@ -26,10 +26,9 @@ Note: italicized times are greater than 1 second and candidate for further optim
 | P15.py  | <0.00000  | Number of paths using down/right combinations in 20x20 grid   | 
 | P16.py  | <0.00000  | Sum of digits of 2^1000                                       | 
 | P17.py  |  0.00200  | Sum of letters of all digits from 1 to 1000                   | 
-| P18.py  |           |                                                               | 
+| P18.py  | <0.00000  | Maximum sum of numbers traversing triangle list               | 
 | P19.py  |  0.00300  | Sum of Sundays that fell on the 1st in the 20th century       | 
 | P20.py  | <0.00000  | Sum of digits of 100!                                         | 
 | P21.py  |  0.23502  | Sum of amicable numbers under 10000                           | 
 | P22.py  |  0.34604  | Sum of "name score" of list of 5000+ names                    | 
 | P23.py  |  7.19472  | Sum of all non-abundant numbers                               | 
-

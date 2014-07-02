@@ -57,8 +57,13 @@ TRIANGLE = [
 [ 4, 62, 98, 27, 23,  9, 70, 98, 73, 93, 38, 53, 60,  4, 23]
 ]
 
-for row in TRIANGLE:
-    print (row, (sum(row)/len(row)))
+for i in reversed(range(len(TRIANGLE)-1)):
+#    print(TRIANGLE[i])
+    for j in range(len(TRIANGLE[i])):
+        TRIANGLE[i][j] += max(TRIANGLE[i+1][j], TRIANGLE[i+1][j+1])
+#    print(TRIANGLE[i])
+
+result = TRIANGLE[0][0]
 
 # ***** END CODE FOR P18.py *****
 print ("Result is: ", result)
