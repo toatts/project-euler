@@ -31,4 +31,6 @@ Note: italicized times are greater than 1 second and candidate for further optim
 | P20.py  | <0.00000  | Sum of digits of 100!                                         | 
 | P21.py  |  0.23502  | Sum of amicable numbers under 10000                           | 
 | P22.py  |  0.34604  | Sum of "name score" of list of 5000+ names                    | 
-| P23.py  |  7.19472  | Sum of all non-abundant numbers                               | 
+| P23.py  | _7.19472_ | Sum of all non-abundant numbers                               | 
+| P24.py  |  0.81808  | Millionth lexicographic permutation of 0123456789             | 
+
