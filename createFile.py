@@ -49,9 +49,11 @@ else:
 
 #Print header to new file
 f.write('# ==============================================================================\n')
+f.write('print ("=============================")\n')
 f.write('print ("Project Euler - Problem ')
 f.write(probnum)
-f.write('\\n\\n")\n')
+f.write('")\n')
+f.write('print ("=============================")\n')
 f.write('# ==============================================================================\n')
 f.write('# Description:\n')
 
@@ -98,8 +100,9 @@ f.write('start_time = time.time()\n')
 f.write('result = 0\n')
 f.write('# ***** BEGIN CODE FOR ' + filename + ' *****\n\n\n\n')
 f.write('# ***** END CODE FOR ' + filename + ' *****\n')
+f.write('run_time = time.time() - start_time\n')
 f.write('print ("Result is: ", result)\n')
-f.write('print ("Run time:   %.5f seconds" % (time.time() - start_time))\n')
+f.write('print ("Run time:   %.5f seconds" % run_time)\n')
 f.write('# END ' + filename)
 
 # Close the URL and file

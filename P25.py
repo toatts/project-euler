@@ -27,6 +27,23 @@ start_time = time.time()
 result = 0
 # ***** BEGIN CODE FOR P25.py *****
 
+def digitCounter(n):
+    i = 0
+    for digits in str(n):
+        i += 1
+
+    return i
+
+prev = 1
+fib  = 1
+tmp  = 0
+result = 2
+
+while (digitCounter(fib) < 1000):
+    tmp  = fib
+    fib += prev
+    prev = tmp
+    result += 1
 
 
 # ***** END CODE FOR P25.py *****

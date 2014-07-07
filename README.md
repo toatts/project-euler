@@ -33,4 +33,5 @@ Note: italicized times are greater than 1 second and candidate for further optim
 | P22.py  |  0.34604  | Sum of "name score" of list of 5000+ names                    | 
 | P23.py  | _7.19472_ | Sum of all non-abundant numbers                               | 
 | P24.py  |  0.81808  | Millionth lexicographic permutation of 0123456789             | 
+| P25.py  |  1.12136  | First 1000 digit number of the Fibonacci sequence             | 
 
