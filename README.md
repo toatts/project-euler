@@ -11,6 +11,8 @@ TODO: Standardize timing from different machine
 
 | File    | Time (s)  | Description                                                   |
 | ------- | --------- | ------------------------------------------------------------- |
+| P28.py  | <0.00000  | Sum of number spiral diagonals                                |
+| P27.py  |           | Solving quadratic primes                                      |
 | P26.py  |  1.44914  | Longest reciprocal decimal of 1/d with d < 1000               | 
 | P25.py  |  1.12136  | First 1000 digit number of the Fibonacci sequence             | 
 | P24.py  |  0.81808  | Millionth lexicographic permutation of 0123456789             | 
@@ -23,7 +25,7 @@ TODO: Standardize timing from different machine
 | P17.py  |  0.00200  | Sum of letters of all digits from 1 to 1000                   | 
 | P16.py  | <0.00000  | Sum of digits of 2^1000                                       | 
 | P15.py  | <0.00000  | Number of paths using down/right combinations in 20x20 grid   | 
-| P14.py  |  5.45054  | Longest Collatz chain from digit under 1 million              | 
+| P14.py  | _5.45054_ | Longest Collatz chain from digit under 1 million              | 
 | P13.py  | <0.00000  | First ten digits of sum of 100 50-digit numbers               | 
 | P12.py  | _11.2291_ | First triangle number with over 500 divisors                  | 
 | P11.py  |  0.00100  | Finding largest product of four numbers in 20x20 grid         | 

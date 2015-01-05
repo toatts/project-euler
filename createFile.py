@@ -95,10 +95,15 @@ for i in wordList:
 
 # Close out the header and add the result and print section
 f.write('# ==============================================================================\n')
-f.write('import time\nimport math\n\n')
-f.write('start_time = time.time()\n')
+f.write('import time\n')
+f.write('import math\n')
+f.write('\n')
 f.write('result = 0\n')
-f.write('# ***** BEGIN CODE FOR ' + filename + ' *****\n\n\n\n')
+f.write('start_time = time.time()\n')
+f.write('# ***** BEGIN CODE FOR ' + filename + ' *****\n')
+f.write('\n')
+f.write('\n')
+f.write('\n')
 f.write('# ***** END CODE FOR ' + filename + ' *****\n')
 f.write('run_time = time.time() - start_time\n')
 f.write('print ("Result is: ", result)\n')
