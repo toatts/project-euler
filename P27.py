@@ -28,21 +28,21 @@ start_time = time.time()
 result = 0
 # ***** BEGIN CODE FOR P27.py *****
 
-# a = range -1000, 1000
-# b = range -1000, 1000
-def is_prime(n):
-    # Deterministic Miller-Rabin algorithm
+from pe_library import *
 
-    # Eliminate negatives, 0 and 1
-    if (n < 2):
-        return False
+max_prime_length = 0
+bounds = 1000
 
-    # Odd numbers
-    if (n % 2):
-
-    # Even numbers
-    else:
-        return False
+for a in range(-bounds, bounds):
+    for b in range(-bounds, bounds):
+        cur_prime_length = 0
+        n = 0
+        while(isPrime(n**2 + a*n + b)):
+            cur_prime_length += 1
+            n += 1
+        if (cur_prime_length > max_prime_length):
+            print ("New max = ", cur_prime_length, " n = ", n, " a = ", a, " b = ", b)
+            max_prime_length = cur_prime_length
 
 # ***** END CODE FOR P27.py *****
 run_time = time.time() - start_time

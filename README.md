@@ -5,14 +5,19 @@ Create a template file for each problem with the console
 $ python createFile.py <problem #>
 ```
 Using Python 3.3 as programming language to solve all problems.
-Note: italicized times are greater than 1 second and candidate for further optimization
+Note: italicized times are greater than 5 seconds and candidate for further optimization
 
 TODO: Standardize timing from different machine
 
 | File    | Time (s)  | Description                                                   |
 | ------- | --------- | ------------------------------------------------------------- |
+| P33.py  |  NOTDONE  | Digit cancelling fractions                                    |
+| P32.py  |  0.33001  | Pandigital products                                           |
+| P31.py  | <0.00000  | Coin sums                                                     |
+| P30.py  |  2.28603  | Digit fifth powers                                            |
+| P29.py  |  0.01000  | Distinct powers                                               |
 | P28.py  | <0.00000  | Sum of number spiral diagonals                                |
-| P27.py  |           | Solving quadratic primes                                      |
+| P27.py  | _44.5531_ | Solving quadratic primes                                      |
 | P26.py  |  1.44914  | Longest reciprocal decimal of 1/d with d < 1000               | 
 | P25.py  |  1.12136  | First 1000 digit number of the Fibonacci sequence             | 
 | P24.py  |  0.81808  | Millionth lexicographic permutation of 0123456789             | 
