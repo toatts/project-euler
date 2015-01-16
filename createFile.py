@@ -96,7 +96,7 @@ for i in wordList:
 # Close out the header and add the result and print section
 f.write('# ==============================================================================\n')
 f.write('import time\n')
-f.write('import math\n')
+f.write('from pe_library import *\n')
 f.write('\n')
 f.write('result = 0\n')
 f.write('start_time = time.time()\n')

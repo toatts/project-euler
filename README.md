@@ -11,7 +11,10 @@ TODO: Standardize timing from different machine
 
 | File    | Time (s)  | Description                                                   |
 | ------- | --------- | ------------------------------------------------------------- |
-| P33.py  |  NOTDONE  | Digit cancelling fractions                                    |
+| P36.py  |  4.17613  | Double-base palindromes                                       |
+| P35.py  | _18.4535_ | Circular primes                                               |
+| P34.py  | _11.9114_ | Digit factorials                                              |
+| P33.py  |  0.22001  | Digit cancelling fractions                                    |
 | P32.py  |  0.33001  | Pandigital products                                           |
 | P31.py  | <0.00000  | Coin sums                                                     |
 | P30.py  |  2.28603  | Digit fifth powers                                            |
@@ -40,7 +43,7 @@ TODO: Standardize timing from different machine
 | P7.py   |  0.52405  | 10,001st prime number                                         |
 | P6.py   | <0.00000  | Difference between sum of squares and square of sums          |
 | P5.py   | _5.86558_ | Smallest number divisible by all numbers 1-20                 |
-| P4.py   | _1.38513_ | Largest palindrome from product of two 3-digit numbers        |
+| P4.py   |  1.38513  | Largest palindrome from product of two 3-digit numbers        |
 | P3.py   |  0.00199  | Largest prime factor of 600851475143                          |
 | P2.py   | <0.00000  | Sum of even-valued Fibonacci sequence under 4 million         |
 | P1.py   |  0.00099  | Sum of multiples of 3 and 5 below 1000                        |
